@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh Sans:wght@400;700&display=swap');
+
+/*Variables css*/
+:root {
+    --primary-font:hsl(238, 29%, 16%);
+    --secundary-font:hsl(237, 12%, 33%);
+    --secundary-light-font:hsl(240, 6%, 50%);
+    --neutral-gray:hsl(240, 5%, 91%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-orange:hsl(14, 88%, 65%);
+    --primary-font-family: 'Kumbh Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background: -webkit-linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 12px;
+}
+.container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
+    height: 510px;
+    border-radius: 15px;
+    position: relative;
+}
+.content {
+    padding-bottom: 50px;
+    width:420px;
+    background-color: var(--neutral-white);
+    border-radius: 0 15px 15px 0;
+}
+.content-title {
+    margin: 60px 0 40px 40px;
+    font-size: 33px;
+    color:var(--primary-font);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.img {
+    width: 420px;
+    height: 510px;
+    background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
+    background-position: bottom 80px left -80px, bottom -140px left -570px;
+    background-repeat:no-repeat;
+    background-color: var(--neutral-white);
+    border-radius: 15px 0 0 15px;
+}
+.img::before {
+    content: "";
+    background-image: url(images/illustration-box-desktop.svg);
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 180px;
+    position: absolute;
+    top: 205px;
+    left:-63px;
+}
+/*accordeon bootstrap*/
+.accordion{
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.accordion-button {
+    padding-left: 0;
+    padding-right: 0;
+    color:var(--primary-font);
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.accordion-button:hover{
+    color:var(--neutral-orange);
+}
+.accordion-button:not(.collapsed)::after {
+    margin-right: 10px;
+    background-image:url(images/icon-arrow-down.svg);
+    background-size: 50%;
+    transform: rotate(-180deg);
+}
+.accordion-button::after {
+    background-image:url(images/icon-arrow-down.svg);
+    background-size: 50%;
+}
+.accordion-button:not(.collapsed) {
+    color:var(--primary-font);
+    font-weight: 700;
+    background-color: transparent;
+    box-shadow:none;
+}
+.accordion-item{
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.accordion-body{
+    padding-left: 0;
+}
+/*Footer*/
+footer {
+    margin:20px 0 20px 0;
+    color: var(--primary-font);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    font-style: oblique;
+    font-weight: 700;
+}
+.attribution a { 
+    color:var(--neutral-gray);
+}
+
+/*media queries*/
+@media (max-width: 899px) { 
+    .container-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        height: 580px;
+        position: relative;
+    }
+    .content {
+        padding-bottom: 20px;
+        width: 330px;
+        height: 580px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .content-title {
+          margin-top: 110px;
+          margin-bottom: 30px;
+          margin-left: 0;
+    }
+    .img {
+        background-color: transparent;
+        background: url(images/illustration-woman-online-mobile.svg) no-repeat;
+        width: 268px;
+        height: 180px;
+        position: absolute;
+        top: -110px;
+        left: 55px;
+    }
+    .img::before {
+        display: none;
+    }
+    .img::after {
+        content: "";
+        background: url(images/bg-pattern-mobile.svg) no-repeat;
+        width: 268px;
+        height: 180px;
+        position: absolute;
+        top: 105px;
+        left: -1px;
+    }
+    /*bootstrap*/
+    .accordion{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .accordion-collapse{
+        padding-right: 1rem;
+        text-align: left;
+    }
+}
+
+
