@@ -36,12 +36,12 @@ Users should be able to:
 
 ![](https://github.com/dusvimarin/FEM-faq-accordion-card-main/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dusvimarin/FEM-faq-accordion-card-main/blob/main/screenshots/mobile.png)
+![](https://github.com/dusvimarin/FEM-faq-accordion-card-main/blob/main/screenshots/mobile)
 
 
 ### Links
 
-- Solution URL: [My solution](https://dusvimarin.github.io/FEM-faq-accordion-card-main)
+[My solution](https://dusvimarin.github.io/FEM-faq-accordion-card-main)
 
 
 ## My process
