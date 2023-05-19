@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://dusvimarin.github.io/FEM-faq-accordion-card-main)
+[My solution](https://dusvimarin.github.io/FEM-faq-accordion-card-main)
 
 
 ## My process
