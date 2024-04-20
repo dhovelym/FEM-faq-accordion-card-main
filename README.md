@@ -34,14 +34,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/dovelym/FEM-faq-accordion-card-main/blob/main/screenshots/desktop.png)
+![](https://github.com/dovelm/FEM-faq-accordion-card-main/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dovelym/FEM-faq-accordion-card-main/blob/main/screenshots/mobile.png)
+![](https://github.com/dovelm/FEM-faq-accordion-card-main/blob/main/screenshots/mobile.png)
 
 
 ### Links
 
-[My solution](https://dovelym.github.io/FEM-faq-accordion-card-main)
+[My solution](https://dovelm.github.io/FEM-faq-accordion-card-main)
 
 
 ## My process
@@ -68,4 +68,4 @@ I learned to use elements flexbox, background images with ::before and ::after a
 - Google chome/tools/development tools
 
 ## Author
-[@dusvy_m](https://github.com/dovelym)
+[@dusvy_m](https://github.com/dovelm)
